@@ -1,0 +1,31 @@
+{
+  "name": "url-schemify",
+  "version": "0.1.0",
+  "description": "Tiny module for adding scheme to URLs",
+  "main": "url-schemify.js",
+  "scripts": {
+    "test": "node test/spec.js",
+    "cov": "istanbul cover test/spec.js && coveralls < ./coverage/lcov.info"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wizardzloy/url-schemify.git"
+  },
+  "keywords": [
+    "url",
+    "scheme",
+    "browser",
+    "node"
+  ],
+  "author": "Vladimir Guguiev <wizardzloy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wizardzloy/url-schemify/issues"
+  },
+  "homepage": "https://github.com/wizardzloy/url-schemify",
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.7",
+    "tape": "^3.5.0"
+  }
+}
